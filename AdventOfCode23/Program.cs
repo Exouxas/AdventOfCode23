@@ -4,9 +4,10 @@
     {
         static void Main(string[] args)
         {
-            List<AdventSolver> solvers = 
+            List<AdventSolver> solvers =
             [
-                new Day01.Solver(), 
+                new Day01.Solver(),
+                new Day02.Solver(),
             ];
 
             for(int i = 0; i < solvers.Count; i++)
