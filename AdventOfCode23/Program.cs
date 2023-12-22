@@ -11,6 +11,7 @@
                 new Day03.Solver(),
                 new Day04.Solver(),
                 new Day05.Solver(),
+                new Day06.Solver(),
             ];
 
             for(int i = 0; i < solvers.Count; i++)
