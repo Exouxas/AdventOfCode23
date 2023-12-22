@@ -58,30 +58,30 @@ namespace AdventOfCode23.Day05
             string[] seeds = puzzleInput[0].Split(": ")[1].Split(" ");
 
             int i = -1;
-            bool finished = false;
-            while (!finished)
-            {
-                i++;
+            //bool finished = false;
+            //while (!finished)
+            //{
+            //    i++;
 
-                long location = i;
+            //    long location = i;
 
-                foreach (MapConverter map in maps)
-                {
-                    location = map.ReverseConvert(location);
-                }
+            //    foreach (MapConverter map in maps)
+            //    {
+            //        location = map.ReverseConvert(location);
+            //    }
 
-                for (int n = 0; n < seeds.Length / 2; n += 2)
-                {
-                    long start = long.Parse(seeds[n]);
-                    long length = long.Parse(seeds[n + 1]);
+            //    for (int n = 0; n < seeds.Length / 2; n += 2)
+            //    {
+            //        long start = long.Parse(seeds[n]);
+            //        long length = long.Parse(seeds[n + 1]);
 
-                    if (location >= start && location <= start + length - 1)
-                    {
-                        finished = true;
-                        break;
-                    }
-                }
-            }
+            //        if (location >= start && location <= start + length - 1)
+            //        {
+            //            finished = true;
+            //            break;
+            //        }
+            //    }
+            //}
 
             
 
