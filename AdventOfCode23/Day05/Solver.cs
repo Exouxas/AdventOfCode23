@@ -52,6 +52,8 @@ namespace AdventOfCode23.Day05
 
         public override string GetPuzzleOutput2()
         {
+            return "ERR";
+
             List<MapConverter> maps = CreateConverters();
             maps.Reverse();
 
