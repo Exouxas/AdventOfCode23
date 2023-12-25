@@ -16,6 +16,21 @@
                 new Day08.Solver(),
                 new Day09.Solver(),
                 new Day10.Solver(),
+                new Day11.Solver(),
+                new Day12.Solver(),
+                new Day13.Solver(),
+                new Day14.Solver(),
+                new Day15.Solver(),
+                new Day16.Solver(),
+                new Day17.Solver(),
+                new Day18.Solver(),
+                new Day19.Solver(),
+                new Day20.Solver(),
+                new Day21.Solver(),
+                new Day22.Solver(),
+                new Day23.Solver(),
+                new Day24.Solver(),
+                new Day25.Solver(),
             ];
 
             for(int i = 0; i < solvers.Count; i++)
